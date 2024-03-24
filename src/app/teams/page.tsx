@@ -40,7 +40,10 @@ export default function AboutUs() {
           <div className="font-bold text-center pt-4">
             {data?.data.results[0].name.first} {data?.data.results[0].name.last}
           </div>
-          <div className="text-center text-sm pb-4">Founder</div>
+          <div className="text-center text-sm">Founder</div>
+          <div className="text-center text-xs pb-4">
+            {data?.data.results[0].email}
+          </div>
         </div>
         <div className="basis-1/3 border-2 border-black bg-white m-[30px]">
           <div className="container-team h-[300px]">
@@ -55,7 +58,10 @@ export default function AboutUs() {
           <div className="font-bold text-center pt-4">
             {data?.data.results[1].name.first} {data?.data.results[1].name.last}
           </div>
-          <div className="text-center text-sm pb-4">Co-Founder</div>
+          <div className="text-center text-sm">Co-Founder</div>
+          <div className="text-center text-xs pb-4">
+            {data?.data.results[1].email}
+          </div>
         </div>
         <div className="basis-1/3 border-2 border-black bg-white m-[30px]">
           <div className="container-team h-[300px]">
@@ -70,7 +76,10 @@ export default function AboutUs() {
           <div className="font-bold text-center pt-4">
             {data?.data.results[2].name.first} {data?.data.results[2].name.last}
           </div>
-          <div className="text-center text-sm pb-4">CEO</div>
+          <div className="text-center text-sm">CEO</div>
+          <div className="text-center text-xs pb-4">
+            {data?.data.results[2].email}
+          </div>
         </div>
       </div>
       <div className="teams-flex flex flex-row max-w-4xl mx-auto">
@@ -87,7 +96,10 @@ export default function AboutUs() {
           <div className="font-bold text-center pt-4">
             {data?.data.results[3].name.first} {data?.data.results[3].name.last}
           </div>
-          <div className="text-center text-sm pb-4">CPO</div>
+          <div className="text-center text-sm">CPO</div>
+          <div className="text-center text-xs pb-4">
+            {data?.data.results[3].email}
+          </div>
         </div>
         <div className="basis-1/3 border-2 border-black bg-white m-[30px]">
           <div className="container-team h-[300px]">
@@ -102,7 +114,10 @@ export default function AboutUs() {
           <div className="font-bold text-center pt-4">
             {data?.data.results[4].name.first} {data?.data.results[4].name.last}
           </div>
-          <div className="text-center text-sm pb-4">CTO</div>
+          <div className="text-center text-sm">CTO</div>
+          <div className="text-center text-xs pb-4">
+            {data?.data.results[4].email}
+          </div>
         </div>
         <div className="basis-1/3 border-2 border-black bg-white m-[30px]">
           <div className="container-team h-[300px]">
@@ -117,7 +132,10 @@ export default function AboutUs() {
           <div className="font-bold text-center pt-4">
             {data?.data.results[5].name.first} {data?.data.results[5].name.last}
           </div>
-          <div className="text-center text-sm pb-4">CMO</div>
+          <div className="text-center text-sm">CMO</div>
+          <div className="text-center text-xs pb-4">
+            {data?.data.results[5].email}
+          </div>
         </div>
       </div>
       <Footer />
