@@ -248,6 +248,13 @@ export default function AboutUs() {
                   alt="product-picture"
                 />
                 <Image
+                  src="/products/archeryonmodel.webp"
+                  width={350}
+                  height={350}
+                  className="mx-auto product-1"
+                  alt="product-picture"
+                />
+                <Image
                   src="/products/archerymodelhold_900x.webp"
                   width={350}
                   height={350}
