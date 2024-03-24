@@ -28,8 +28,8 @@ export default function AboutUs() {
           />
           <div className="about-body leading-8 font-medium pt-6">
             at SECONDATE, we make products that celebrate real people and real
-            stories. Everyone’s story is different. Your story is uniquely your
-            own and we love that. We painstakingly perfect our products and
+            stories. Everyone&apos;s story is different. Your story is uniquely
+            your own and we love that. We painstakingly perfect our products and
             handpick all of the ingredients, so that all you have to do now, is
             choose. We were founded in 2020 on the belief that your beauty is a
             part of the story you are writing for yourself. We are building the

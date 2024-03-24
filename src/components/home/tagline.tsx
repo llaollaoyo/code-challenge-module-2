@@ -17,7 +17,7 @@ export default function Tagline() {
         <h1 className="font-semibold">
           is the freedom to be unapologetically you.
         </h1>
-        <h1 className="mt-6">everyone's story is different,</h1>
+        <h1 className="mt-6">everyone&apos;s story is different,</h1>
         <h1 className="mb-8">why should yours be the same?</h1>
       </div>
       <Link href="/about-us">

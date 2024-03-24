@@ -48,7 +48,7 @@ export default function Footer() {
                 />
               </div>
               <div className="ml-4 text-[#aa1f24] text-2xl font-bold my-auto">
-                let's get social!
+                let&apos;s get social!
               </div>
             </div>
           </Link>
