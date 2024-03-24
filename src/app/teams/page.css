@@ -1,0 +1,83 @@
+.title {
+  background-image: url("/teams/brow-updo-banner_2100x.webp");
+  background-size: cover;
+  background-position: center center;
+}
+
+.fade {
+  animation: fadeIn 5s;
+  -webkit-animation: fadeIn 5s;
+  -moz-animation: fadeIn 5s;
+  -o-animation: fadeIn 5s;
+  -ms-animation: fadeIn 5s;
+}
+
+.container-team {
+  position: relative;
+  width: 100%;
+}
+
+.profile-image {
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+
+.profile-image:hover {
+  -webkit-filter: grayscale(0%);
+  filter: grayscale(0%);
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-moz-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-o-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-ms-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .teams-flex {
+    flex-direction: column;
+  }
+
+  .teams-title {
+    font-size: 60px;
+  }
+}

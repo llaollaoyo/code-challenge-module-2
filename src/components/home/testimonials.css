@@ -1,0 +1,66 @@
+.words {
+  position: relative;
+  animation: move-words 40s linear infinite;
+  margin: 0;
+}
+
+/* .testi-4 {
+  margin-top: 0.75rem;
+  margin-bottom: 0.75rem;
+} */
+
+@keyframes move-words {
+  0% {
+    left: 100%;
+  }
+  100% {
+    left: -100%;
+  }
+}
+
+@-moz-keyframes move-words {
+  0% {
+    left: 100%;
+  }
+  100% {
+    left: -100%;
+  }
+}
+
+@-webkit-keyframes move-words {
+  0% {
+    left: 100%;
+  }
+  100% {
+    left: -100%;
+  }
+}
+
+@-o-keyframes move-words {
+  0% {
+    left: 100%;
+  }
+  100% {
+    left: -100%;
+  }
+}
+
+@-ms-keyframes move-words {
+  0% {
+    left: 100%;
+  }
+  100% {
+    left: -100%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .flex-testi {
+    flex-direction: column;
+    margin: auto;
+  }
+
+  .testi-4 {
+    margin-top: 0;
+  }
+}

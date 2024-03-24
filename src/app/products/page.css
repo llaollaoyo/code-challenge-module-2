@@ -1,0 +1,106 @@
+.container {
+  position: relative;
+  width: 100%;
+}
+
+.product-1 {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.product-2 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity: 0;
+  width: 100%;
+  height: 100%;
+  transition: 0.5s ease;
+  background-color: rgba(241, 207, 182, 255);
+}
+
+.container:hover .product-2 {
+  opacity: 1;
+}
+
+.products {
+  animation: fadeIn 3s;
+  -webkit-animation: fadeIn 3s;
+  -moz-animation: fadeIn 3s;
+  -o-animation: fadeIn 3s;
+  -ms-animation: fadeIn 3s;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-moz-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-o-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-ms-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@media screen and (max-width: 717px) {
+  .flex-products {
+    flex-direction: column;
+  }
+
+  .flex-products-2 {
+    flex-direction: column;
+    margin-top: 0;
+  }
+
+  .photo-prod {
+    max-width: 100vw;
+    padding: 0 80px;
+  }
+
+  div h2 {
+    margin-bottom: 20px;
+  }
+}
+
+@media screen and (max-width: 484px) {
+  .photo-prod {
+    padding: 0 40px;
+  }
+}

@@ -1,0 +1,125 @@
+nav {
+  display: flex;
+  /*border: 2px solid black;*/
+  width: 100%;
+  transition: 0.5s;
+}
+
+.flex-box-nav-1 {
+  flex-basis: 40%;
+  width: 100vw;
+  /*border: 2px solid black;*/
+  padding: 40px 0 0 90px;
+  transition: 0.5s;
+}
+
+.flex-box-nav-2 {
+  flex-basis: 60%;
+  width: 100vw;
+  /*border: 2px solid black;*/
+  padding: 60px 90px 20px;
+  transition: 0.5s;
+}
+
+.logo-nav {
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+}
+
+#nav {
+  text-align: right;
+}
+
+nav li {
+  color: white;
+  display: inline;
+  list-style-type: none;
+  padding: 0 10px;
+  transition: line-height 0.5s ease-in-out;
+}
+
+nav li a {
+  text-decoration: none;
+  color: white;
+}
+
+nav li:hover {
+  text-decoration: none;
+  font-weight: bolder;
+  color: #aa1f24;
+}
+
+.dropdown {
+  display: none;
+}
+
+@media screen and (max-width: 1105px) {
+  #nav {
+    display: none;
+  }
+
+  .dropbtn {
+    background-color: transparent;
+    color: white;
+    font-size: 16px;
+    border: none;
+    width: 46px;
+  }
+
+  .dropdown {
+    position: relative;
+    display: block;
+    float: right;
+  }
+
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    right: 0;
+  }
+
+  .dropdown-content a {
+    color: brown;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+
+  .dropdown-content a:hover {
+    background-color: rgb(222, 169, 125);
+    font-weight: bolder;
+  }
+
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+  .flex-box-nav-1 {
+    /*border: 2px solid black;*/
+    padding: 40px 0 0 90px;
+    flex-basis: 80%;
+  }
+
+  .flex-box-nav-2 {
+    /*border: 2px solid black;*/
+    padding: 40px 90px 0 0;
+    flex-basis: 20%;
+  }
+}
+
+@media screen and (max-width: 690px) {
+  .flex-box-nav-1 {
+    /*border: 2px solid black;*/
+    padding: 15px;
+  }
+
+  .flex-box-nav-2 {
+    /*border: 2px solid black;*/
+    padding: 15px;
+  }
+}

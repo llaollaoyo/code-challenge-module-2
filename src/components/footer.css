@@ -1,0 +1,17 @@
+@media screen and (max-width: 765px) {
+  .flex-footer {
+    flex-direction: column;
+  }
+
+  .footer-1 img {
+    width: 100%;
+  }
+
+  .footer-3 {
+    margin-left: 20px;
+  }
+
+  .foot-bot {
+    margin-left: 62.828px;
+  }
+}
